@@ -1,8 +1,9 @@
 :root {
   /* variables */
   --cg-black: rgb(30, 32, 32);
+  --cg-green: rgb(31, 73, 61);
   --cg-blue: rgb(36, 94, 255);
-  --cg-grey: rgb(243, 243, 243);
+  --cg-grey: rgb(243, 239, 232);
   --cg-white: rgb(255, 255, 255);
 }
 
@@ -16,7 +17,7 @@ body {
   min-height: 100vh;
   padding: 0;
   margin: 0;
-  font-family: monospace;
+  font-family: sans-serif;
 }
 
 /* CSS for navigation */
@@ -34,7 +35,7 @@ body {
   align-items: center;
   text-align: center;
 
-  background-color: var(--cg-black);
+  background-color: var(--cg-green);
   color: var(--cg-white);
   padding: 0px 0px;
 
@@ -60,7 +61,7 @@ body {
   text-decoration: none;
   letter-spacing: 2px;
 
-  font-family: monospace;
+  font-family: sans-serif;
 }
 
 .navbar a:hover {
@@ -73,7 +74,7 @@ body {
 }
 
 .logo a {
-  font-family: Georgia;
+  font-family: Tahoma;
 }
 
 .logo a:hover {
@@ -92,7 +93,7 @@ main {
   display: flex;
   justify-content: center;
   font-size: 40px;
-  font-family: Georgia;
+  font-family: Tahoma;
 }
 
 /* CSS for portfolio grid */
@@ -206,7 +207,7 @@ main {
   border: none;
   color: var(--cg-white);
 
-  font-family: monospace;
+  font-family: sans-serif;
 
   padding: 5px 7px;
   text-align: center;
@@ -219,7 +220,7 @@ main {
 }
 
 .resume h2 {
-  font-family: Georgia;
+  font-family: Tahoma;
 }
 
 /* CSS for contact form */
@@ -227,7 +228,7 @@ main {
 label {
   display: block;
   margin-bottom: 8px;
-  font-family: Georgia;
+  font-family: Tahoma;
   font-weight: bold;
 }
 
@@ -255,7 +256,7 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--cg-black);
+  background-color: var(--cg-green);
   color: var(--cg-white);
   position: absolute;
   bottom: 0;
