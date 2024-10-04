@@ -219,6 +219,17 @@ main {
   background-color: var(--cg-blue);
 }
 
+.resume {
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
 .resume h2 {
   font-family: Tahoma;
 }
